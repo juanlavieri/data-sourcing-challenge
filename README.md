@@ -8,7 +8,7 @@ In this project, I developed a data sourcing solution designed to assist a movie
 
 ### Part 1: Accessing the New York Times API
 - I constructed a query URL to fetch movie reviews, filtering for reviews with "love" in the headline.
-- Implemented a loop to paginate through the API response, retrieving a total of 200 reviews.
+- Implemented a loop to paginate through the API response.
 - Stored the fetched data in a DataFrame and extracted movie titles using a custom lambda function.
 
 ### Part 2: Accessing The Movie Database API
